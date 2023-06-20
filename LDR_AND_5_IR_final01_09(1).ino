@@ -26,22 +26,22 @@ void loop()
   int ldrStatus = analogRead (ldr);
     if (ldrStatus <=300)
      {
-       //digitalWrite(led, HIGH);
-       //analogWrite(led,255/5);
+       digitalWrite(led, HIGH);
+       analogWrite(led,255/5);
        
-     //  digitalWrite(led1, HIGH);
-      // analogWrite(led1,255/5); 
+     digitalWrite(led1, HIGH);
+      analogWrite(led1,255/5); 
        
-      // digitalWrite(led2, HIGH);
-      // analogWrite(led2,255/5);
+      digitalWrite(led2, HIGH);
+      analogWrite(led2,255/5);
        
-       //digitalWrite(led3, HIGH);
-       //analogWrite(led3,255/5);
+       digitalWrite(led3, HIGH);
+       analogWrite(led3,255/5);
        
-      // digitalWrite(led4, HIGH);
-      // analogWrite(led4,255/5);
+      digitalWrite(led4, HIGH);
+       analogWrite(led4,255/5);
 
-/*Serial.print("A1");
+Serial.print("A1");
        Serial.println(analogRead(A1));
 Serial.print("A2");
        Serial.println(analogRead(A2));
@@ -51,7 +51,7 @@ Serial.print("A2");
        Serial.println(analogRead(A4));
 
        Serial.print("A5");
-       Serial.println(analogRead(A5));*/
+       Serial.println(analogRead(A5));
         
        
            if (analogRead(A1)<500)       // IR 1 CODE    
